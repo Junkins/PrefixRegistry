@@ -34,7 +34,7 @@ Helpers
 namespace App\View\Admin;
 
 use Cake\View\View;
-use PrefixRegistry\Controller\PrefixComponentRegistry;
+use PrefixRegistry\View\PrefixHelperRegistry;
 
 class AdminView extends View
 {
