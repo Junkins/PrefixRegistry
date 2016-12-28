@@ -1,0 +1,15 @@
+{
+    "name": "junkins/prefix-registry",
+    "description": "CakePHP PrefixRegistry",
+    "autoload": {
+        "psr-4": {
+            "PrefixRegistry\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PrefixRegistry\\Test\\": "tests",
+            "PrefixRegistry\\Test\\App\\": "tests/test_app/App"
+        }
+    }
+}
